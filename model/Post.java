@@ -1,3 +1,5 @@
+package model;
+
 import java.io.Serializable;
 
 public class Post implements Serializable {
@@ -36,7 +38,7 @@ public class Post implements Serializable {
 
     @Override
     public String toString() {
-        return "Post{" +
+        return "model.Post{" +
                 "title='" + title + '\'' +
                 ", text='" + text + '\'' +
                 ", category='" + category + '\'' +

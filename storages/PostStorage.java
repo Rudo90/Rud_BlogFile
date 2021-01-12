@@ -1,3 +1,9 @@
+package storages;
+
+import exceptionsCommands.*;
+import model.Post;
+
+
 public interface PostStorage {
 
     void add (Post post);

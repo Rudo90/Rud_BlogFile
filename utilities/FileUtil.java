@@ -1,10 +1,13 @@
+package utilities;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import model.Post;
 
 public class FileUtil implements Serializable {
 
-    private static final String POST_PATH = "src/blogPackage/outputFiles/Post.txt";
+    private static final String POST_PATH = "src/blogPackage/outputFiles/model.Post.txt";
 
     public static void postSerialize (List<Post> list){
 

@@ -1,3 +1,5 @@
+package exceptionsCommands;
+
 public interface Commands {
 
     String EXIT = "0";

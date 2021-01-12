@@ -1,3 +1,4 @@
+package exceptionsCommands;
 
 public class NoPostCategoryException extends Exception {
 
